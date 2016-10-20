@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Lista Contatos</title>
+</head>
+<body>
+	<table>
+		<th>Nome</th>
+		<th>Data Nascimento</th>
+		<th>Telefone</th>
+		<th>Email</th>
+		<th>Data Cadastro</th>
+	</table>
+</body>
+</html>

@@ -1,0 +1,9 @@
+
+public class Contato {
+	
+	String nome;
+	String dataNascimento;
+	String telefone;
+	String email;
+
+}

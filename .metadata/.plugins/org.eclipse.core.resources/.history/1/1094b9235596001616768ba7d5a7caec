@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AGENDA 2016</title>
+</head>
+<body>
+
+	<form action="Cadastrar" method="post" id=formCadastro>
+		Nome: <input type="text" name="nome">
+		Dt. Nascimento: <input type="text" name="dataNascimento">
+		Telefone: <input type="text" name="telefone">
+		E-mail: <input type="text" name="email">
+		<input type="submit" value=Cadastrar>
+	</form>
+</body>
+</html>

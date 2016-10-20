@@ -1,0 +1,22 @@
+import java.sql.SQLException;
+
+public class DaoContato extends Conn {
+
+	public int adicionarContato(Contato contato){
+		
+		String sql = String.format("INSERT INTO CONTATO (NOME, DATANASCIMENTO, TELEFONE, EMAIL, DATACADASTRO) VALUES ('%s','%s','%s','%s',GETDATE())", contato.getNome(),contato.getDataNascimento(), contato.getTelefone(), contato.getEmail());
+		
+		try {
+			conectaBanco();
+			pst = conn.prepareStatement(sql);
+			pst.executeUpdate();
+			pst.close();
+			desconectaBanco();
+			return 1;
+			
+		} catch (SQLException e) {
+			System.out.println("ERRO INSERIR CLIENTE " + e);
+			return 0;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="250" key="dialogHeight"/>
+		<item value="350" key="dialogWidth"/>
+		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.actions.GenerateGetterSetter"/>
+			<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+			<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.actions"/>
+			<item value="org.eclipse.ui.wizards"/>
+			<item value="org.eclipse.ui.wizards"/>
+		</list>
+		<list key="textArray">
+			<item value="get"/>
+			<item value="new class"/>
+			<item value="new java pro"/>
+		</list>
+	</section>
+</section>
